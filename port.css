@@ -208,7 +208,7 @@ margin-right: 5%;
     left: 606px;
     
     transition: 0.5s;
-    top: 1080px;
+    top: 1050px;
     
 }
 .tab-links:hover::after {
@@ -226,7 +226,7 @@ margin-right: 5%;
     left: 820px;
     
     transition: 0.5s;
-    top: 1080px;
+    top: 1050px;
     
 }
 .tab-links1:hover::after {
@@ -244,7 +244,7 @@ margin-right: 5%;
     left: 982px;
     
     transition: 0.5s;
-    top: 1080px;
+    top: 1050px;
     
 }
 .tab-links2:hover::after {
