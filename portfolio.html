@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="port.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+    </head>
+<body>
+    <header class="header" >
+        <a href="#hello" class="logo">Nithish</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Services">services</a>
+            
+            <a href="#contact">contact</a>
+        </nav>
+    
+        </header>
+        <section class="Home" id="home">
+            <div class="Home-content">
+                <h1>Hi, Iam Nithish kumar</h1>
+                <h3> Frontend Developer</h3>  
+                <p>Iam a front-end web developer.I can provide clean code<br>
+                    and pixel perfect design.
+                    <br>
+                    <br>
+                </p>
+                <div class="btn-box">
+                    <a href="#">Hire me</a>
+                    <a href="#">Let's talk</a>
+                    <a href=""D:\HTML\Lingala_Nithish Kumar_Resume_13-09-2023-22-06-30.pdf"" class="box1" download="Lingala_Nithish Kumar_Resume_13-09-2023-22-06-30.pdf">Download Resume</a>
+                </div>
+            </div>
+            <div class="Home-sci">
+                <a href="https://www.facebook.com/profile.php?id=100008870075713&mibextid=V3Yony"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://instagram.com/n.i.t.h.i.s.h_27?igshid=MzMyNGUyNmU2YQ=="><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/lingala-nithish-kumar-6597b6252"><i class='bx bxl-linkedin' ></i></a>
+
+
+
+
+            </div>
+    
+        </section>
+        <section id="About">
+            <div class="img">
+            <img src="nithish1.jpg" alt="">
+
+
+            </div>
+            <div class="abt">
+                <h1>About</h1><br>
+                <p>I am eager to apply my skills and
+                    knowledge to a challenging role in <br> the
+                    technology industry. My ability to learn
+                    quickly, makes me a strong <br> candidate
+                    for an entry-level position. I am highly
+                    motivated, detail oriented, <br> and
+                    committed to delivering high qualitywork.</p> <br> <br>
+                    <div class="skills">
+                        <p onclick="opentab()" class="tab-links">Education</p>
+                        <p onclick="opentab1()" class="tab-links1">Skills</p>
+                        <p onclick="opentab2()" class="tab-links2">Experience</p><br>
+                       
+                    </div> <br> <br>
+                    <div>
+                        <p id="content" ></p>
+                    </div>
+            </div>  
+        </section>
+
+        <section id="services">
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title"><span id="Services">Services</span>  </h1>
+                    <div class="services-list">
+                        <div class="">
+                            <i class="fas fa-code"></i>
+                            <h2>Web Design</h2>
+                            <p>Web design involves creating visually appealing and user-friendly websites. It includes designing layouts, selecting color schemes, and optimizing for different devices. .</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div class="">
+                            <i class="fas fa-crop-alt"></i>
+                            <h2>UI/UX Design</h2>
+                            <p>UI (User Interface) design focuses on the visual and interactive aspects of a digital product, ensuring a visually appealing and intuitive layout. UX (User Experience) design emphasizes the overall user journey and satisfaction, aiming to create a seamless and enjoyable interaction with the product.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div class="">
+                            <i class="fab fa-app-store"></i>
+                            <h2>App Design</h2>
+                            <p>App design involves creating the user interface (UI) and user experience (UX) for a mobile or web application, with a focus on aesthetics and functionality to deliver an engaging and user-friendly digital experience. It encompasses the visual design, layout, navigation, and interactions to meet the needs and preferences of the app's target audience.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+        
+                </div>
+
+        </section>
+        <section id="contact">
+            <div class="contact-left">
+                <h1>Contact Me</h1><br>
+                <i class='bx bx-envelope' id="mail">nithishchintu543217@gmail.com</i><br><br>
+                <p id="phno"><i class='bx bx-phone-call'></i>9966681212</p>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" onsubmit="setTimeout(function(){window.location.reload();},10);">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" cols="30" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+
+
+
+                </div>
+
+
+
+
+        </section>
+       <div class="copyright">
+        Copyright © 2023  Nithish Lingala- NIT Mizoram  
+       </div>
+
+        
+       
+        
+
+
+          <script>
+             document.getElementById("content").innerHTML= "2018 <br> I completed my schooling at Vasant Valley High School <br><br>2020 <br> I completed my intermediate at Alphores Jr College<br><br>2024<br>BTech graduate at NIT Mizoram"
+            function opentab() {
+                document.getElementById("content").innerHTML= "2018 <br> I completed my schooling at Vasant Valley High School <br><br>2020 <br> I completed my intermediate at Alphores Jr College<br><br>2024<br>BTech graduate at NIT Mizoram"
+    
+            }
+            function opentab1() {
+                document.getElementById("content").innerHTML="UI/UX  <br> Designing Web app interfaces <br><br> Web Development<br> Web app development <br><br> Python <br> Developer"
+                
+                
+                
+    
+            }
+            function opentab2() {
+                document.getElementById("content").innerHTML="As of know,<br><br> Recently graduated from Btech.So i have experience from my own projects  "
+    
+            }
+            </script>
+             <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbyrxcn7WRvLfB2FE3Vi8YDMjjZOz3MKSXEDwoJMAJQ0unxmzpKmhl_ME-SkCEs5N8AH/exec'
+                const form = document.forms['submit-to-google-sheet']
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+
+
+
+
+
+
+
+
+    
+    </body>
+</html>
